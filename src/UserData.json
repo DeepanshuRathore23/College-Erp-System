@@ -1,0 +1,272 @@
+{
+    "users" : [        
+        {
+            "id": "22011431",
+            "userName":"Akash123",
+            "password":"12345678",
+            "name": "Akash",
+            "college":"Graphic Era",
+            "course":"Btech",
+            "semester":"4",
+            "phoneNo":"9865230086",
+            "fatherName":"Ravi",
+            "motherName":"Sunita",
+            "DOB":"1999-01-01",
+            "section":"A",
+            "rollNo":"101",
+            "universityRollNo":"201",
+            "email":"akash@example.com",
+            "attendance":[
+                {
+                    "subjectName":"Maths",
+                    "subjectCode": "MATH101",
+                    "subjectFaculty": "Dr. Smith",
+                    "totalPresent": "38",
+                    "totalAbsent": "12",
+                    "totalLectures": "50",
+                    "percentage": "76%"
+                },
+                {
+                    "subjectName":"Physics",
+                    "subjectCode": "PHY101",
+                    "subjectFaculty": "Dr. Johnson",
+                    "totalPresent": "42",
+                    "totalAbsent": "8",
+                    "totalLectures": "50",
+                    "percentage": "84%"
+                },
+                {
+                    "subjectName":"Chemistry",
+                    "subjectCode": "CHEM101",
+                    "subjectFaculty": "Dr. Davis",
+                    "totalPresent": "45",
+                    "totalAbsent": "5",
+                    "totalLectures": "50",
+                    "percentage": "90%"
+                }
+            ],
+            "result":[
+                {
+                    "sem":"1",
+                    "sgpa":"6.8",
+                    "backPapers":"0",
+                    "resultStatus":"Pass",
+                    "marksheet":"To be Uploaded"
+                },
+                {
+                    "sem":"2",
+                    "sgpa":"4.8",
+                    "backPapers":"2",
+                    "resultStatus":"Fail",
+                    "marksheet":"To be Uploaded"
+                }
+            ],
+            "admitCard":null,
+            "totalfee":"12000",
+            "dues":"10000",
+            "paid":"2000"
+        },
+
+        {
+            "id": "22011432",
+            "userName":"Neeraj123",
+            "password":"12345678",
+            "name": "Neeraj",
+            "college":"Graphic Era",
+            "course":"Btech",
+            "semester":"4",
+            "phoneNo":"9865450086",
+            "fatherName":"Vijay",
+            "motherName":"Anita",
+            "DOB":"1998-02-02",
+            "section":"B",
+            "rollNo":"102",
+            "universityRollNo":"202",
+            "email":"neeraj@example.com",
+            "attendance":[
+                {
+                    "subjectName":"Maths",
+                    "subjectCode": "MATH101",
+                    "subjectFaculty": "Dr. Smith",
+                    "totalPresent": "39",
+                    "totalAbsent": "11",
+                    "totalLectures": "50",
+                    "percentage": "78%"
+                },
+                {
+                    "subjectName":"Physics",
+                    "subjectCode": "PHY101",
+                    "subjectFaculty": "Dr. Johnson",
+                    "totalPresent": "40",
+                    "totalAbsent": "10",
+                    "totalLectures": "50",
+                    "percentage": "80%"
+                },
+                {
+                    "subjectName":"Chemistry",
+                    "subjectCode": "CHEM101",
+                    "subjectFaculty": "Dr. Davis",
+                    "totalPresent": "37",
+                    "totalAbsent": "13",
+                    "totalLectures": "50",
+                    "percentage": "74%"
+                }
+            ],
+            "result":[
+                {
+                    "sem":"1",
+                    "sgpa":"4.8",
+                    "backPapers":"0",
+                    "resultStatus":"Pass",
+                    "marksheet":"To be Uploaded"
+                },
+                {
+                    "sem":"2",
+                    "sgpa":"6.1",
+                    "backPapers":"0",
+                    "resultStatus":"Pass",
+                    "marksheet":"To be Uploaded"
+                }
+            ],
+            "admitCard":"",
+            "totalfee":"12000",
+            "dues":"10000",
+            "paid":"2000"
+        },
+
+        {
+            "id": "22011433",
+            "userName":"Sumit123",
+            "password":"12345678",
+            "name": "Sumit",
+            "college":"Graphic Era",
+            "course":"Btech",
+            "semester":"4",
+            "phoneNo":"9284830086",
+            "fatherName":"Rajesh",
+            "motherName":"Kavita",
+            "DOB":"1997-03-03",
+            "section":"C",
+            "rollNo":"103",
+            "universityRollNo":"203",
+            "email":"sumit@example.com",
+            "attendance":[
+                {
+                    "subjectName":"Maths",
+                    "subjectCode": "MATH101",
+                    "subjectFaculty": "Dr. Smith",
+                    "totalPresent": "35",
+                    "totalAbsent": "15",
+                    "totalLectures": "50",
+                    "percentage": "70%"
+                },
+                {
+                    "subjectName":"Physics",
+                    "subjectCode": "PHY101",
+                    "subjectFaculty": "Dr. Johnson",
+                    "totalPresent": "38",
+                    "totalAbsent": "12",
+                    "totalLectures": "50",
+                    "percentage": "76%"
+                },
+                {
+                    "subjectName":"Chemistry",
+                    "subjectCode": "CHEM101",
+                    "subjectFaculty": "Dr. Davis",
+                    "totalPresent": "43",
+                    "totalAbsent": "7",
+                    "totalLectures": "50",
+                    "percentage": "86%"
+                }
+            ],
+            "result":[
+                {
+                    "sem":"1",
+                    "sgpa":"8.1",
+                    "backPapers":"0",
+                    "resultStatus":"Pass",
+                    "marksheet":"To be Uploaded"
+                },
+                {
+                    "sem":"2",
+                    "sgpa":"8.9",
+                    "backPapers":"0",
+                    "resultStatus":"Pass",
+                    "marksheet":"To be Uploaded"
+                }
+            ],
+            "admitCard":"",
+            "totalfee":"12000",
+            "dues":"10000",
+            "paid":"2000"
+        },
+
+        {
+            "id": "22011434",
+            "userName":"Sudheer123",
+            "password":"12345678",
+            "name": "Sudheer",
+            "college":"Graphic Era",
+            "course":"Btech",
+            "semester":"4",
+            "phoneNo":"9008866086",
+            "fatherName":"Suresh",
+            "motherName":"Meena",
+            "DOB":"1996-04-04",
+            "section":"D",
+            "rollNo":"104",
+            "universityRollNo":"204",
+            "email":"sudheer@example.com",
+            "attendance":[
+                {
+                    "subjectName":"Maths",
+                    "subjectCode": "MATH101",
+                    "subjectFaculty": "Dr. Smith",
+                    "totalPresent": "45",
+                    "totalAbsent": "5",
+                    "totalLectures": "50",
+                    "percentage": "90%"
+                },
+                {
+                    "subjectName":"Physics",
+                    "subjectCode": "PHY101",
+                    "subjectFaculty": "Dr. Johnson",
+                    "totalPresent": "36",
+                    "totalAbsent": "14",
+                    "totalLectures": "50",
+                    "percentage": "72%"
+                },
+                {
+                    "subjectName":"Chemistry",
+                    "subjectCode": "CHEM101",
+                    "subjectFaculty": "Dr. Davis",
+                    "totalPresent": "40",
+                    "totalAbsent": "10",
+                    "totalLectures": "50",
+                    "percentage": "80%"
+                }
+            ],
+            "result":[
+                {
+                    "sem":"1",
+                    "sgpa":"6.8",
+                    "backPapers":"0",
+                    "resultStatus":"Pass",
+                    "marksheet":"To be Uploaded"
+                },
+                {
+                    "sem":"2",
+                    "sgpa":"4.5",
+                    "backPapers":"2",
+                    "resultStatus":"Fail",
+                    "marksheet":"To be Uploaded"
+                }
+            ],
+            "admitCard":"",
+            "totalfee":"12000",
+            "dues":"10000",
+            "paid":"2000"
+            
+        }
+    ]
+}
