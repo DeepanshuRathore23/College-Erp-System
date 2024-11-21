@@ -13,6 +13,9 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   const { user } = useUser();
+  if(!user){
+    return <Navigate to="/"/>
+  }
   return (
     <>
       <div className="header bg-gradient-to-r from-blue-500 to-blue-700 p-4 flex items-center shadow-lg">

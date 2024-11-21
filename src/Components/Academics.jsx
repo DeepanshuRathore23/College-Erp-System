@@ -10,7 +10,7 @@ function Academics() {
     const { user } = useUser();
 
     if(!user){
-      return <Navigate to="/"/>
+      return <Navigate to="/" replace/>
     }
     const currentUser = data.users.find((u) => u.userName === user.userName);
    
