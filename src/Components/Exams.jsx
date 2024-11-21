@@ -5,9 +5,13 @@ import dashboardIcon from '../Images/dashboard-icon.png';
 import navigationIcon from '../Images/navigation-icon.png'
 import { useUser } from '../Context/UserContext';
 import data from '../UserData.json'
+import { Navigate } from 'react-router-dom';
 
 function Exams() {
     const {user} = useUser();
+    if(!user){
+      return <Navigate to="/"/>
+    }
     const currentUser = data.users.find((u) => u.userName === user.userName);
   return (
     <>

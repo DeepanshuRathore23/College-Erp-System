@@ -4,9 +4,14 @@ import { Link } from 'react-router-dom';
 import profileIcon from '../Images/user.png';
 import dashboardIcon from '../Images/dashboard-icon.png';
 import data from '../UserData.json'
+import { Navigate } from 'react-router-dom';
 
 function Academics() {
     const { user } = useUser();
+
+    if(!user){
+      return <Navigate to="/" replace/>
+    }
     const currentUser = data.users.find((u) => u.userName === user.userName);
    
     
