@@ -8,6 +8,8 @@ import Home from './Components/Home.jsx'
 import Academics from './Components/Academics.jsx'
 import Exams from './Components/Exams.jsx'
 import Fees from './Components/Fees.jsx'
+import Placements from './Components/Placements.jsx'
+import Circulars from './Components/Circulars.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +19,8 @@ const router = createBrowserRouter(
       <Route path='/Academics' element={<Academics/>} />
       <Route path='/Exams' element={<Exams/>} />
       <Route path="/Fees" element={<Fees/>} />
+      <Route path='/placements' element={<Placements/>}/>
+      <Route path='/circulars' element={<Circulars/>}/>
       <Route path='*' element={<LoginPage/>} />
     </Route>
   )

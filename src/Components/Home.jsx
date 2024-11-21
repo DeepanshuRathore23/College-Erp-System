@@ -136,14 +136,14 @@ function Home() {
                       </div>
 
                       <div className="placements m-3">
-                        <Link >
+                        <Link to="/placements" >
                           <img className='border border-gray-300 rounded-xl' src={placementsIcon} alt="" style={{height:"180px", width:"180px"}}/>
                         </Link>
                         <h2 className='flex justify-center font-bold'>Placements</h2>
                       </div>
 
                       <div className="circulars m-3">
-                        <Link>
+                        <Link to="/circulars">
                           <img className='border border-gray-300 rounded-xl' src={circularsIcon} alt="" style={{height:"180px", width:"180px"}}/>
                         </Link>
                         <h2 className='flex justify-center font-bold'>Circulars</h2>
